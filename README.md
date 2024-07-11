@@ -1,4 +1,4 @@
-## 基于Springboot+vue的网上订餐系统(源代码+LW+数据库)
+## 基于SSM物流管理系统(源代码+LW+数据库)
 **毕业设计所有选题地址： https://github.com/Good-Night-Unicorn?tab=repositories**
 
 **完整代码收费可以加微信FY-yuanma咨询接毕业设计论文**
@@ -11,23 +11,22 @@
 
 ## 一、系统介绍
 
-1.前后端分离项目，前端使用vue框架
-2.后端使用Java编程语言的Springboot框架
-3.项目中登录模块用到token
-4.源码包部署调试
-5.每个笔记均有对应源码，有完整版演示视频
+1.前端使用vue框架
+2.后端使用Java编程语言的SSM框架
+3.项目中用到token登录，登录过程简便快捷
 项目架构：B/S架构
 开发语言：Java语音、Vue语言
 前端技术：Vue、Html、CSS、Element、JS
-后端技术：Java、mybatis、Spring
-运行环境：win10/win11、jdk1.8
+后端技术：Java、mybatis、Spring、SpringMvc
+运行环境：win10、jdk1.8
 数据库：mysql5.7/8.0或以上版本
+
 
 ## 二、所用技术
 
 后端技术栈：
 
-- springboot
+- ssm
 - mybatis
 - druid
 - mysql
@@ -53,3 +52,25 @@
 ![图片](https://github.com/Good-Night-Unicorn/SSM_Logistics-management-system/assets/84435241/b0adcfa4-3bf4-4771-884c-161e7f598e1e)
 ![图片](https://github.com/Good-Night-Unicorn/SSM_Logistics-management-system/assets/84435241/ef345249-b63f-4c12-976f-8bdbd5a9b58e)
 ![图片](https://github.com/Good-Night-Unicorn/SSM_Logistics-management-system/assets/84435241/7cfe5f82-1a14-4bff-8eaf-b51698512bae)
+## 五、浏览地址
+
+前端访问地址：http://localhost:8080/
+
+用户账号/密码：zhangsan/123456
+
+管理员账号/密码：admin/123456  
+
+## 六、安装教程
+
+1. 使用Navicat或者其它工具，在mysql中创建对应名称的数据库，并导入项目的sql文件；
+2. 使用IDEA/Eclipse导入gin目录项目，Eclipse/MyEclipse导入时，若为maven项目请选择maven;
+   若为maven项目，导入成功后请执行maven clean;maven install命令，然后运行；
+3. 在 `gin/src/main/resources/application.properties`修改数据库连接参数
+4. 启动项目后端项目 
+5. vscode打开项目，
+6. 打开终端，执行npm install 依赖下载完成后执行 npm run serve,执行成功后会显示访问地址
+7. 访问  http://localhost:8080/
+
+**完整代码收费  可以QQ：3042127848 微信：FY-yuanma 咨询**
+
+**接毕业设计和论文**
